@@ -2,7 +2,7 @@ from flask import Flask, request
 from caesar import rotate_string
 
 app = Flask(__name__)
-app.config['DEBUG'] = False
+app.config['DEBUG'] = True
 
 form = """
 <!DOCTYPE html>
