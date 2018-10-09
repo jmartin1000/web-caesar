@@ -105,3 +105,4 @@ venv.bak/
 
 #file not required by project
 form.html
+.DS_Store
